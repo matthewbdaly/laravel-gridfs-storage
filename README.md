@@ -25,3 +25,8 @@ Then add this to the `disks` section of `config/filesystems.php`:
 ```
 
 Finally, add the field `GRIDFS_STORAGE_NAME` to your `.env` file with the appropriate credentials. Then you can set the `gridfs` driver as either your default or cloud driver and use it to fetch and retrieve files as usual.
+
+MongoClient is deprecated...
+----------------------------
+
+Unfortunately, `league/flysystem-gridfs` hasn't been updated to reflect this. When it is, I'll be in a position to make this work with it.
