@@ -12,7 +12,7 @@ composer require matthewbdaly/laravel-gridfs-storage
 On Laravel versions before 5.4 you also need to add the service provider to `config/app.php` manually:
 
 ```php
-    Matthewbdaly\LaravelAzureStorage\GridFSStorageServiceProvider::class,
+    Matthewbdaly\LaravelGridFSStorage\GridFSStorageServiceProvider::class,
 ```
 
 Then add this to the `disks` section of `config/filesystems.php`:
