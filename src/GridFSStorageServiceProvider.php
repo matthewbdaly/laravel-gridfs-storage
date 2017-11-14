@@ -6,6 +6,7 @@ use Storage;
 use League\Flysystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\GridFS\GridFSAdapter;
+
 /**
  * Service provider for GridFS Storage
  */
