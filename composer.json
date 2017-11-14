@@ -2,7 +2,7 @@
     "name": "matthewbdaly/laravel-gridfs-storage",
     "description": "MongoDB GridFS integration for Laravel's Storage API",
     "type": "library",
-    "keywords": ["storage","laravel","azure"],
+    "keywords": ["storage","laravel","gridfs"],
     "require-dev": {
         "orchestra/testbench": "^3.5",
         "phpunit/phpunit": "^6.4",
